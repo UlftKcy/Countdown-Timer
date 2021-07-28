@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clarusway | Cohort-8 | End Of The Course</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 100vw;
+        height: 100vh;
+        font-family: "Teko", sans-serif;
+        background-image: url(./img/bg-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        color: #404244;
+        font-size: 3rem;
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+      }
+      .date {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+
+      .number {
+        font-size: 4rem;
+        font-weight: 600;
+        color: #ffff;
+        text-shadow: 0px 3px 0px #c0b491, 0px 14px 10px rgba(0, 0, 0, 0.15),
+          0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      span {
+        font-size: 1.4rem;
+        color: #ffff;
+      }
+      @media (max-width: 320px) {
+        html {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="date-body">
+        <h1>End Of The Course</h1>
+        <div class="date">
+          <div class="days">
+            <div class="days-digit number">0</div>
+            <span>days</span>
+          </div>
+          <div class="hours">
+            <div class="hours-digit number">0</div>
+            <span>hours</span>
+          </div>
+          <div class="mins">
+            <div class="mins-digit number">0</div>
+            <span>mins</span>
+          </div>
+          <div class="seconds">
+            <div class="seconds-digit number">0</div>
+            <span>seconds</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
